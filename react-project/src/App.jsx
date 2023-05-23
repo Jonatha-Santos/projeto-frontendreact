@@ -1,12 +1,15 @@
+import Filter from "./Components/Filter/filter";
+import Home from "./Components/ProductList/Home/Home";
+import Cart from "./Components/ShoppingCart/Cart/cart";
 
-function App() {
-
-
+const App = () =>{
   return (
     <>
-     <h1>Olá mundo</h1>
+      <Filter />
+      <Home />
+      <Cart />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
